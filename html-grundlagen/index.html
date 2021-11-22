@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!-- Man kann die Sprache des Dokumentes im HTML Tag deklarieren. Dazu verwendet man das lang Attribut.
+    Die Deklaration einer Sprache ist wichtig für barrierefreie Anwendungen (Screenreader) und Suchmaschinen:
+    Dabei sagen die ersten beiden Zeichen etwas über die Sprache aus und die jenigen nach dem Bindestrich 
+    über den Dialekt z.B. Deutschland (DE), oder im Englischen die verschiedenen Dialekte (z.B. US, GB)
+-->
+<html lang="de-AT">
+<head>
+    <!-- 
+    ohne der folgenden Zeile können wir keine Umlaute oder Sonderzeichen verwenden. 
+    <meta charset="UTF-8">
+    Diese muss sich im Head Tag befinden.
+    -->    
+    <meta charset="UTF-8">
+    <title>HTML Grundgerüst</title>
+</head>
+    <body>
+        <!--  
+        Überschriften werden in HTML mit einem <hx> Tag erstellt. 
+        Hierbei kann x einen Wert zwischen 1 und 6 annehmen. 
+        das <h1> Tag erzeugt die größte und das <h6> Tag die kleinste Überschrift. 
+        Die Werte dazwischen nehmen entsprechend ihrer Größe (als Ziffer) auch die Schriftgröße ein.    
+        Die Verwendung von h1 und h2 Überschriften ist übrigens auch wichtig 
+        bei der Suchmaschinenoptimierung (SEO - Search Engine Optimization)
+        Dabei bewerten Suchmaschinen Wörter die sich in diesen Tags befinden 
+        als wichtiger, als jene die sich einfach in einem Absatz befinden.
+        -->
+        <h1>Überschrift 1. Ordnung</h1>
+        <h2>Überschrift 2. Ordnung</h2>
+        <h3>Überschrift 2. Ordnung</h3>
+        <h4>Überschrift 2. Ordnung</h4>
+        <h5>Überschrift 2. Ordnung</h5>
+        <h6>Überschrift 6. Ordnung</h6>
+
+        <h2>Absätze</h2>
+        
+        <p>dies ist ein Absatz</p>
+
+        <p>
+            dies ist ein zweiter Absatz<br> mit einem Zeilenumbruch <code>&lt;br&gt;</code>
+        </p>
+
+        <!-- 
+        Beim Testen einer Webseite wird häufig Lorem Ipsum verwendet. Dabei handelt es sich um lateinischen Text, 
+        welcher Ideal ist, um zu sehen wie Text auf der Webseite dargestellt wird.
+        Lorem Ipsum Generator: http://www.loremipsum.de -->
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, placeat minima nobis incidunt ipsa nostrum alias esse. Sed natus iure provident nobis fuga repellendus eaque distinctio ducimus. Magni, quasi aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, cupiditate quod quia provident quidem architecto veritatis exercitationem necessitatibus esse ab dignissimos, vero sunt debitis fugiat reiciendis unde laborum, impedit eius! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos explicabo consectetur laudantium perferendis mollitia a sequi molestiae dolorem eius officia, esse alias consequuntur accusantium ducimus nesciunt. Facilis soluta sunt dicta. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nulla, quo distinctio aliquam optio veritatis. Vitae, maxime! Earum fugit libero ratione, culpa possimus quo expedita eaque atque recusandae nesciunt velit!
+        </p>
+
+        <!--
+            <b> - Fettgedruckter Text
+            <strong> - Wichtiger Text
+            <i> - Kursiver Text
+            <em> - Hervorgehobener Text
+            <mark> - Markierter Text
+            <small> - Kleiner Text
+            <sub> - Subskriptionstext
+            <sup> - Hochgestellter Text
+            <del> - Durchgestrichener Text
+            <ins> - Unterstrichener Text
+        -->
+        <!-- Unterschied zwischen "strong" und "b" 
+            Das HTML <b> Element definiert fetten Text, ohne zusätzliche Bedeutung.
+            Das HTML <strong> Element definiert starken Text, mit zusätzlicher semantischer "starker" Bedeutung.
+        -->
+        <p>
+            Lorem ipsum <b>dolor</b> sit amet, <strong>consectetur</strong> adipiscing elit, sed do eiusmod <i>tempor incididunt</i> ut labore et dolore magna aliqua.<br>
+            Ut enim ad minim veniam, quis nostrud <em>exercitation</em>  ullamco laboris nisi ut aliquip ex ea <mark>commodo</mark> consequat. Duis aute irure dolor in <br>
+            <small>reprehenderit</small>  in voluptate velit esse <sub>cillum</sub>  dolore eu <sup>fugiat</sup> nulla pariatur. Excepteur <del>sint occaecat</del> cupidatat non <ins>proident</ins> , sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+        <!-- Das HTML-Element <blockquote> definiert einen Abschnitt, der aus einer anderen Quelle zitiert wird. 
+            Browser rücken normalerweise <blockquote>-Elemente ein. -->
+        <h2>Quotes</h2>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            For 50 years, WWF has been protecting the future of nature.
+            The world's leading conservation organization,
+            WWF works in 100 countries and is supported by
+            1.2 million members in the United States and
+            close to 5 million globally.
+        </blockquote>
+        <h3>abbr</h3>
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+        <h2>Bilder</h2>
+        <!-- Ein Bild kann von einer externen Seite oder aber vom Webserver selbst kommen.-->
+        <!-- das "alt" Attribut steht für Alternative. Wenn das Bild also nicht angezeigt werden kann, wird der Text der "alt" zugewiesen ist, dargestellt. -->
+        <!-- src steht für source - also die Quelle, sprich, win welchem Pfad befindet sich das Bild. -->
+        <!-- bei src und alt handelt es sich um sogenannte Attribute-->
+        <img src="./img/html5.png" alt="HTML5 Logo anzeigen">
+
+        <h2>Links</h2>
+        <!--
+        Um einen Link zu einer anderen Seite anzulegen benötigt man das "a" Tag. Dabei braucht man ein attribut, das "href" Attribut. 
+        href steht für Hypertext REFerence - was soviel bedeutet wie eine Referenz in Textformat.   
+        -->
+        <p>
+            <a href="./unterordner/datei.html">Link zu einer Datei im Unterordner</a><br>
+            <a href="https://ecreation.at/">Externer Link zu ecreation.</a>
+        </p>
+
+        <!-- Hierbei steht "ul" für unordered List also ungeordnete Liste
+            und "li" für list item also für Listenelement
+        -->
+        <h2>Listen</h2>
+        <h3>Ungeordnete Liste</h3>
+        <ul>
+            <li>Smartphone</li>
+            <li>Tablet</li>
+            <li>Desktop</li>
+          </ul>
+        <!-- Hierbei steht "ol" für ordered List also geordnete Liste
+            und "li" auch wieder für list item also für Listenelement
+        -->
+        <h3>Geordnete Liste</h3>
+        <ol>
+            <li>Smartphone</li>
+            <li>Tablet</li>
+            <li>Big Screen
+                <ol type="i">
+                    <li>Laptop</li>
+                    <li>PC</li>
+                </ol>
+            </li>
+        </ol>
+
+        <!-- Tabellen -->
+        <table>
+            <tr>
+              <th>Name</th>
+              <th>Firma</th> 
+              <th>Land</th>
+            </tr>
+            <tr>
+              <td>Max Mustermann</td>
+              <td>Apple</td> 
+              <td>DE</td>
+            </tr>
+            <tr>
+              <td>Hugo Seidl</td>
+              <td>Google</td> 
+              <td>US</td>
+            </tr>
+          </table>
+    </body>
+</html>
