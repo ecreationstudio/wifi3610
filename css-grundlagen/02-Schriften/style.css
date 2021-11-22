@@ -1,0 +1,27 @@
+/* Die styles wurden in eine eigene Datei ausgelagert
+*/
+body {
+    /* mit font-family: kann die Schriftfamilie definiert werden
+    */
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    /* mit font-size bestimmt man die schriftgröße
+    */
+    font-size: 16px;
+    /* die style des bodyelements haben auswirkungen auf die hierachisch darunter liegenden elemente
+    */
+}
+h1 {
+    /* mit color wird die schriftfarbe definiert
+    */
+    color:red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    color:green;
+}
+p {
+    color:darkgray;
+    /* line-height bestimmt den zeilenabstand
+    */
+    line-height: 1.4;
+}

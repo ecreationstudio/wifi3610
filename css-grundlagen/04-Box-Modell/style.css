@@ -1,0 +1,35 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* Block Element geht immer über die ganze breite
+*/
+h1 {
+    color:red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(230, 179, 179);
+    width: 300px;
+    height: 200px;
+    /*Rahmen*/
+    border: 5px red solid;
+    /*Innenabstand*/
+    padding: 10px;
+    /*Außenabstand*/
+    margin:30px;
+}
+/* Im gegensatz zu Block Elementen gibt es auch noch Inline Elemente wie bspw. Strong werden innerhalb einer Zeile angezeigt
+*/
+strong {
+    width: 300px;
+}
+h2 {
+    color:rgb(200,100,0);
+    color: #C86400;
+}
+p {
+    color:darkgray;
+    line-height: 1.4;
+    width: 300px;
+}
+

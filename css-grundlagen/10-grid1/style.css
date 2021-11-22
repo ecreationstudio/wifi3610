@@ -1,0 +1,42 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(211, 211, 211);
+}
+
+.container {
+    width: 600px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left:auto;
+    background-color: rgb(252, 252, 252);
+    padding: 20px;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+.sidebar {
+    width: 200px;
+    float: left;
+}
+
+.content {
+    width: 400px;
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#mainmenu {
+    float: right;
+}
+
+h1 {
+    margin:0;
+}
+
+p {
+    line-height: 150%;
+}
