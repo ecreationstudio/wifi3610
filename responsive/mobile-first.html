@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mobile First</title>
+
+<style type="text/css">
+
+/* Kleiner Reset * * * * * * * * */
+* {
+padding: 0;
+margin: 0;
+color: #fff;
+}
+
+
+/* Standard-CSS-Angaben & Angaben für kleinere Bildschirme * * * * * * * * */
+
+#wrapper {
+	margin: 0 auto; /* Zentriert das Layout */
+	width: 100%; /* Definiert die Gesamtbreite des Layouts */
+}
+
+#header{
+	background: #222;
+	height: 100px; /* Nur zur Sichtbarkeit im Browser, solange kein Inhalt vorhanden ist */
+	float: left; 
+	width: 100%;
+	margin-bottom: 50px;
+}
+#subnavigation{
+	background: #999;
+	height: 250px; /* Nur zur Sichtbarkeit im Browser, solange kein Inhalt vorhanden ist */
+	float: left; 
+	width: 100%;
+}
+
+#content{
+	background: #00a0db;
+	height: 500px; /* Nur zur Sichtbarkeit im Browser, solange kein Inhalt vorhanden ist */
+	float: left; 
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+#sidebar{
+	background: #00374f;
+	height: 250px; /* Nur zur Sichtbarkeit im Browser, solange kein Inhalt vorhanden ist */
+	float: right;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+
+@media only screen and (min-width: 768px) {   
+/*  CSS für Smartphones (Landscape) & kleine Tablets */
+
+#content{
+	width: 75%;
+}
+
+#sidebar{
+	height: 500px; 
+	width: 20%;
+}
+
+}
+
+
+@media only screen and (min-width: 1024px) {   
+/*  CSS für Tablets (Landscape), Laptops  */ 
+
+#wrapper {
+	max-width: 1200px; 
+}
+
+#subnavigation{
+	height: 500px; 
+	width: 20%;
+	margin-left: -75%;
+}
+
+#content{
+	height: 500px; 
+	width: 50%;
+	margin-left: 25%;
+}
+
+#sidebar{
+	height: 500px; 
+	width: 20%;
+}
+
+}
+
+
+</style>
+
+</head>
+<body>
+
+<div id="wrapper">
+
+<div id="header">Header</div>
+
+<div id="content">Inhalt</div>
+
+<div id="sidebar">Seitenleiste</div>
+
+<div id="subnavigation">Sub-<br>navigation</div>
+
+</div>
+
+</body>

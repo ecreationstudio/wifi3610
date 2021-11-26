@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Statisches Raster</title>
+
+<style type="text/css">
+
+/* Kleiner Reset * * * * * * * * */
+* {
+padding: 0;
+margin: 0;
+}
+
+
+/* Einfaches flexibles Raster * * * * * * * * */
+
+#wrapper {
+	margin: 0 auto; /* Zentriert das Layout */
+	max-width: 1200px; /* Definiert die maximale Gesamtbreite des Layouts */
+}
+
+#content{
+	background: #00a0db;
+	height: 500px; /* Nur zur Sichtbarkeit im Browser, solange kein Inhalt vorhanden ist */
+	float: left; 
+	width: 100%;
+}
+
+#sidebar{
+	background: #00374f;
+	height: 500px; /* Nur zur Sichtbarkeit im Browser, solange kein Inhalt vorhanden ist */
+	float: left;
+	width: 100%;
+}
+
+@media (min-width: 600px) {
+    #content, 
+    #sidebar {
+        width:50%;
+    }
+}
+
+</style>
+
+</head>
+<body>
+
+<div id="wrapper">
+
+<div id="content"></div>
+
+<div id="sidebar"></div>
+
+</div>
+
+</body>
