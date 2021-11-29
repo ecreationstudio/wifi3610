@@ -17,3 +17,8 @@
 * Selektoren <https://wiki.selfhtml.org/wiki/CSS/Selektoren>
 * Grid
 * Flex <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
+
+### 03 CSS Frame Bootstrap am Beispiel Template
+* Einbinden einer externen CSS-Bibliothek
+* Aufbau des Layouts mittels Bootstrap Klassen
+* Ausgehend von einem fertigen Screendesign - Umsetzung einer Seite mittels HTML / CSS
