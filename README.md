@@ -17,3 +17,24 @@
 * Selektoren <https://wiki.selfhtml.org/wiki/CSS/Selektoren>
 * Grid
 * Flex <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
+
+### 03 CSS Frame Bootstrap am Beispiel Template
+* Einbinden einer externen CSS-Bibliothek
+* Aufbau des Layouts mittels Bootstrap Klassen
+* Ausgehend von einem fertigen Screendesign - Umsetzung einer Seite mittels HTML / CSS
+
+### 04 Adobe XD Crash-Kurs
+* Erste Schritte
+* Oberfläche des Programms Adobe XD
+* Werkzeuge (Auswahl, Formen, Linie, Fancy Pen, Text, Zeichenflächen)
+* Layouts (Grid, Raster)
+* Objekte / Pathfinder
+* Bilder / Grafiken (Videos)
+* Eigenschaftenleiste
+* Ebenen
+* Dokumentenelemente
+* Plugins
+* Gemeinsames Arbeiten
+
+* Designprozess (Strategie, Design, Development)
+* Briefing
