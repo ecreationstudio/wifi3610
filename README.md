@@ -22,3 +22,39 @@
 * Einbinden einer externen CSS-Bibliothek
 * Aufbau des Layouts mittels Bootstrap Klassen
 * Ausgehend von einem fertigen Screendesign - Umsetzung einer Seite mittels HTML / CSS
+
+### 04 Adobe XD Crash-Kurs
+* Erste Schritte
+* Oberfläche des Programms Adobe XD
+* Werkzeuge (Auswahl, Formen, Linie, Fancy Pen, Text, Zeichenflächen)
+* Layouts (Grid, Raster)
+* Objekte / Pathfinder
+* Bilder / Grafiken (Videos)
+* Eigenschaftenleiste
+* Ebenen
+* Dokumentenelemente
+* Plugins
+* Gemeinsames Arbeiten
+
+* Designprozess (Strategie, Design, Development)
+* Briefing
+
+### 05-06 Präsentationen & UI-Design
+* Informationsarchitektur
+* Layout & Raster
+* Typografie & Webfonts
+* Farbe im Web, Farbkonzepte und -harmonien
+* Navigation, Button & Links
+* Grafiken, Bilder und Icons
+* Animationen, multimediale Elemente
+
+* Besprechung Gruppenprojekt Anforderungen und Präsentation
+
+#### Praktisches Beispiel lietz.at
+* Informationsarchitektur - Mindmap der Seitenstruktur
+* Wireframe der einzelnen Seiten bzw. Contentelementen
+* Moodboard erstellen
+* Style Tile erstellen
+
+### 07 Gestaltungsgrundlagen bzw. -gesetze
+* 
