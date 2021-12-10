@@ -13,42 +13,43 @@
     <title>Meine erste Website</title>
 </head>
 <body>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3  p-5">
-              Spalte 1
-            </div>
-            <div class="col-md-9 col-lg-6 bg-primary p-5">
-                Spalte 2
-            </div>
-            <div class="col-lg-3 p-5">
-                Spalte 3
-            </div>
-          </div>
-    </div>
+      
 
     <header class="header">
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1 class="header-brand-wrapper">
-                        <a href="./index.html" class="header-brand">UIDesign</a>
-                    </h1>
+            <nav class="pt-5 navbar navbar-dark navbar-expand-lg">
+                <div class="container-fluid">
+                  <h1><a class="navbar-brand" href="#">UIDesign</a></h1>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header ms-auto ">
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Leistungen</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#customer">Kunden</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#contact">Kontakt</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
-                <div class="col">
-                    <nav class="header-navbar">
-                        <ul class="header-navbar-items">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#service">Leistungen</a></li>
-                            <li>Kunden</li>
-                            <li>Team</li>
-                            <li>Kontakt</li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
+              </nav>
+        
             <div class="slogan">
                 <p class="slogan-sub">
                     Du willst die Website deiner Träume?
@@ -86,7 +87,7 @@
     
         <section class="service wrapper bg-gray">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-4">
                         <div class="service-icon">
                             <i class="fas fa-tag"></i>
@@ -190,7 +191,7 @@
             </div>
         </section>
 
-        <section class="customer wrapper bg-gray" id="kunden">
+        <section class="customer wrapper bg-gray" id="customer">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -239,8 +240,181 @@
                     </div>
                 </div>
             </div>
-        </section>    
+        </section>
+
+        <section class="team wrapper text-white" id="team">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12 col-md-8 offset-md-2 text-center">
+                        <h1><span class="thin">Unser</span> Team</h1>
+                        <p class="sub">
+                            Das Feedback unserer Kunden zeigt uns nur, dass wir am richtigen Weg sind.
+                        </p>
+                    </div>
+                </div>
+                <div class="row mb-5 text-center">
+                    <div class="col-6 col-lg-3 mb-5 mb-lg-0">
+                        <img src="./img/alex_2.jpg" class="img-fluid " alt="mitarbeiter">
+                        <h6 class="member-name">Name</h6>
+                        <p class="member-job">Position</p>
+                        <div class="member-links ">
+                            <a href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 mb-5 mb-lg-0">
+                        <img src="./img/alex_2.jpg" class="img-fluid" alt="mitarbeiter">
+                        <h6 class="member-name">Name</h6>
+                        <p class="member-job">Position</p>
+                        <div class="member-links">
+                            <a href="">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <img src="./img/alex_2.jpg" class="img-fluid" alt="mitarbeiter">
+                        <h6 class="member-name">Name</h6>
+                        <p class="member-job">Position</p>
+                        <div class="member-links">
+                            <a href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <img src="./img/alex_2.jpg" class="img-fluid" alt="mitarbeiter">
+                        <h6 class="member-name">Name</h6>
+                        <p class="member-job">Position</p>
+                        <div class="member-links">
+                            <a href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-md-8 offset-md-2 text-center">
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, veniam? Nemo neque itaque porro ipsum repellat blanditiis voluptatibus suscipit accusamus beatae mo</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="contact wrapper" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="header-wrapper">
+                            <h1><span class="thin">Sag</span> Hallo</h1>
+                            <p class="sub">
+                                Sei nicht schüchtern, und schreib uns. Unser Team freut sich immer, neue Leute zu treffen.
+                            </p>
+                        </div>
+                        <ul class="contact-methods">
+                            <li>
+                                <div class="contact-icon-wrapper">
+                                    <i class="fas fa-mobile"></i>
+                                </div>
+                                <a href="te:0699123456789">+43 699 123456789</a>
+                            </li>
+                            <li>
+                                <div class="contact-icon-wrapper">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <a href="office@uidesign.com">office@uidesign.com</a>
+                            </li>
+                            <li>
+                                <div class="contact-icon-wrapper">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <a href="#">@uidesign</a>
+                            </li>
+                            <li>
+                                <div class="contact-icon-wrapper">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <a href="#">facebook.com/uidesign</a>
+                            </li>
+                            <li>
+                                <div class="contact-icon-wrapper">
+                                    <i class="fab fa-behance"></i>
+                                </div>
+                                <a href="#">behance.net/uidesign</a>
+                            </li>
+                            <li>
+                                <div class="contact-icon-wrapper">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </div>
+                                <a href="#">pinterest.com/uidesign</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Formular -->
+                    <div class="col-md-6">
+                        <form class="contact-form">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email*</label>
+                                <input class="form-control" type="email" name="Email" id="email" placeholder="max@muster.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name*</label>
+                                <input class="form-control" type="text" name="Name" id="name" placeholder="Max Muster" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="content" class="form-label">Nachricht</label>
+                                <textarea class="form-control" name="content" id="content" rows="4" placeholder="Hier steht deine Nachricht"></textarea>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox" value="1" id="datenschutz" required>
+                                <label class="form-check-label" for="datenschutz"> Default Datenschutz</label>
+                            </div>
+                          
+                            <button type="submit" class="slogan-button form-button">Absenden</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 copyright">
+                        <p>© UIDESGIN 2021 • <a href="#">Impressum</a> • <a href="#">Datenschutz</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/0674f35b05.js" crossorigin="anonymous"></script>
     </body>
 </html>
