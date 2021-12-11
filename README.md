@@ -56,5 +56,6 @@
 * Moodboard erstellen
 * Style Tile erstellen
 
-### 07 Gestaltungsgrundlagen bzw. -gesetze
-* 
+### 07 Gestaltungsgrundlagen bzw. -gesetze, Template in BS5 weitergearbeitet
+
+### 08 Template Carousel, Modal, Offcanvas Menu
