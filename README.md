@@ -59,3 +59,11 @@
 ### 07 Gestaltungsgrundlagen bzw. -gesetze, Template in BS5 weitergearbeitet
 
 ### 08 Template Carousel, Modal, Offcanvas Menu
+
+### 09 Bugfixing, Javascript
+
+### 10 - 11 JavaScript, Projektarbeiten
+
+### 12 Projektarbeiten, Teamprojekte, Prüfung
+
+### 13 Einzeprojektpräsentationen
