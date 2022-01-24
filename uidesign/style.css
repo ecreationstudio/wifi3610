@@ -67,6 +67,11 @@ h1,h2,h3,h4,h5,h6 {
     }    
 }
 
+nav.fixed-top {
+    background-color: #212529;
+    padding-top: inherit !important;
+}
+
 .header-navbar-items {
     float:right;
     /* container einfügen und bei Bootstrap zeigen wie das geht*/
